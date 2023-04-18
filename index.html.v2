@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    body {
+      background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/13/ca/7f/3d/the-best-sunset-experience.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .container {
+      text-align: center;
+      padding-top: 150px;
+      color: #fff;
+    }
+    h1 {
+      font-size: 48px;
+    }
+    .options {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .options button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      font-size: 24px;
+      background-color: #fff;
+      color: #000;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to My Website</h1>
+    <div class="options">
+      <button onclick="option1()">Option 1</button>
+      <button onclick="option2()">Option 2</button>
+    </div>
+  </div>
+  <script>
+    function option1() {
+      alert('You selected Option 1!');
+    }
+    function option2() {
+      alert('You selected Option 2!');
+    }
+  </script>
+</body>
+</html>
