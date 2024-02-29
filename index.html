@@ -1,27 +1,64 @@
-<html>
- <head>
-  <title> Menu Page LASITHI </title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Page LASITHI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+    }
+    .menu-item {
+      margin: 20px;
+      display: inline-block;
+    }
+    .menu-item img {
+      width: 160px; /* Adjust as needed */
+      height: auto;
+      border-radius: 8px; /* Gives images rounded corners */
+    }
+    .menu-link {
+      text-decoration: none;
+      color: #333;
+    }
+    .menu-link:hover {
+      color: #007bff;
+    }
+  </style>
 </head>
- 
- <a href="ΜΕΝΟΥ. V2.pdf">
-   <img src="MENU.png">
- </a>
-  
- <br>
+<body>
 
-  <a href="LASITHI_COCKTAIL Χ 30. V2.pdf">
-   <img src="Cocktail pic.jpg">
- </a>
+<div class="container">
+  <h1>Welcome to LASITHI</h1>
   
- <br>
- 
- <a href="BRUNCH & BREAKFAST Χ 20. V2.pdf">
-   <img src="BRUNCHMENU.jpg"
-        width="160"
-        height="120"/>
- </a>
- 
- <p><a href="ΜΕΝΟΥ. V2.pdf"/>Click here for the menu</a></p>
-<p><a href="BRUNCH & BREAKFAST Χ 20. V2.pdf"/>Click here for the brunch menu</a></p>
- <p><a href="LASITHI_COCKTAIL Χ 30. V2.pdf"/>Click here for the Cocktail menu</a></p>
+  <div class="menu-item">
+    <a href="ΜΕΝΟΥ. V2.pdf" class="menu-link">
+      <img src="MENU.png" alt="Menu">
+      <p>Our Menu</p>
+    </a>
+  </div>
+  
+  <div class="menu-item">
+    <a href="LASITHI_COCKTAIL Χ 30. V2.pdf" class="menu-link">
+      <img src="Cocktail pic.jpg" alt="Cocktail Menu">
+      <p>Cocktail Selection</p>
+    </a>
+  </div>
+  
+  <div class="menu-item">
+    <a href="BRUNCH & BREAKFAST Χ 20. V2.pdf" class="menu-link">
+      <img src="BRUNCHMENU.jpg" alt="Brunch Menu">
+      <p>Brunch & Breakfast</p>
+    </a>
+  </div>
+</div>
+
+</body>
 </html>
