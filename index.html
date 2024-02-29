@@ -1,63 +1,65 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu Page LASITHI</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-    }
-    .container {
-      text-align: center;
-      padding: 20px;
-    }
-    .menu-item {
-      margin: 20px;
-      display: inline-block;
-    }
-    .menu-item img {
-      width: 160px; /* Adjust as needed */
-      height: auto;
-      border-radius: 8px; /* Gives images rounded corners */
-    }
-    .menu-link {
-      text-decoration: none;
-      color: #333;
-    }
-    .menu-link:hover {
-      color: #007bff;
-    }
-  </style>
+    <title>Menu Page LASITHI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            animation: backgroundChange 10s infinite;
+            color: white;
+            text-align: center;
+        }
+        @keyframes backgroundChange {
+            0% { background-color: #00416A; }
+            50% { background-color: #E4E5E6; }
+            100% { background-color: #00416A; }
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .reservation {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
-<div class="container">
-  <h1>Welcome to LASITHI</h1>
-  
-  <div class="menu-item">
-    <a href="ΜΕΝΟΥ. V2.pdf" class="menu-link">
-      <img src="MENU.png" alt="Menu">
-      <p>Our Menu</p>
-    </a>
-  </div>
-  
-  <div class="menu-item">
-    <a href="LASITHI_COCKTAIL Χ 30. V2.pdf" class="menu-link">
-      <img src="Cocktail pic.jpg" alt="Cocktail Menu">
-      <p>Cocktail Selection</p>
-    </a>
-  </div>
-  
-  <div class="menu-item">
-    <a href="BRUNCH & BREAKFAST Χ 20. V2.pdf" class="menu-link">
-      <img src="BRUNCHMENU.jpg" alt="Brunch Menu">
-      <p>Brunch & Breakfast</p>
-    </a>
-  </div>
+<a href="ΜΕΝΟΥ. V2.pdf">
+    <img src="MENU.png" alt="Menu">
+</a>
+
+<br>
+
+<a href="LASITHI_COCKTAIL Χ 30. V2.pdf">
+    <img src="Cocktail pic.jpg" alt="Cocktail Menu">
+</a>
+
+<br>
+
+<a href="BRUNCH & BREAKFAST Χ 20. V2.pdf">
+    <img src="BRUNCHMENU.jpg" alt="Brunch & Breakfast Menu" width="160" height="120">
+</a>
+
+<p><a href="ΜΕΝΟΥ. V2.pdf">Click here for the menu</a></p>
+<p><a href="BRUNCH & BREAKFAST Χ 20. V2.pdf">Click here for the brunch menu</a></p>
+<p><a href="LASITHI_COCKTAIL Χ 30. V2.pdf">Click here for the Cocktail menu</a></p>
+
+<div class="social-icons">
+    <a href="https://www.instagram.com/lasithi_bar_restaurant/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="https://www.facebook.com/LasithiRestaurant" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+</div>
+
+<div class="reservation">
+    For reservations call: +30 2108960502
 </div>
 
 </body>
