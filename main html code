@@ -43,21 +43,21 @@
     <h1>Welcome to LASITHI</h1>
     
     <div class="menu-item">
-        <a href="ΜΕΝΟΥ. V2.pdf" class="menu-link">
+        <a href="ΜΕΝΟΥ.%20V2.pdf" class="menu-link">
             <img src="MENU.png" alt="Menu">
             <p>Our Menu</p>
         </a>
     </div>
     
     <div class="menu-item">
-        <a href="LASITHI_COCKTAIL Χ 30. V2.pdf" class="menu-link">
-            <img src="Cocktail pic.jpg" alt="Cocktail Menu">
+        <a href="LASITHI_COCKTAIL%20Χ%2030.%20V2.pdf" class="menu-link">
+            <img src="Cocktail%20pic.jpg" alt="Cocktail Menu">
             <p>Cocktail Selection</p>
         </a>
     </div>
     
     <div class="menu-item">
-        <a href="BRUNCH & BREAKFAST Χ 20. V2.pdf" class="menu-link">
+        <a href="BRUNCH%20&%20BREAKFAST%20Χ%2020.%20V2.pdf" class="menu-link">
             <img src="BRUNCHMENU.jpg" alt="Brunch Menu">
             <p>Brunch & Breakfast</p>
         </a>
