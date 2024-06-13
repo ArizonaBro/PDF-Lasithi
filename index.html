@@ -1,51 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Website</title>
-  <style>
-    body {
-      background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/13/ca/7f/3d/the-best-sunset-experience.jpg');
-      background-size: cover;
-      background-position: center;
-    }
-    .container {
-      text-align: center;
-      padding-top: 150px;
-      color: #fff;
-    }
-    h1 {
-      font-size: 48px;
-    }
-    .options {
-      display: flex;
-      justify-content: center;
-      margin-top: 50px;
-    }
-    .options button {
-      margin: 0 10px;
-      padding: 10px 20px;
-      font-size: 24px;
-      background-color: #fff;
-      color: #000;
-      cursor: pointer;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page LASITHI</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'https://cdnjs.cloudflare.com'; style-src 'self' 'unsafe-inline';">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABOElEQVR42mL8//8/AymAiSTBvwMR/v//P4TCy2l19+xZmUXAZBpD9T9PH9MEQ4b2n57NzDxZWaz0Ml+kFhFnl//fyX8fAxRMECCPM7OwhwIog4Bu7d/+fgZk/9Gm/7fHX8w9rFRy8T/4uHHzATJsBAyMGRn7/TdzAW3aH/7+/c35Y+ef36hwLKDCYAhI3NOMOCmZycsRmBmQy7Bvj88aOGGAYXwVgpGBmSMDDExPI/JiZiDI4IB2wPX79+rM6k4cwcnNz/z8aNHTOzaFsWAIDz8wLQXniGDAwAQUDBzC/kZGR6P5mzJszs8BZgBT8fIljRp3cyPzP8wyADCExGRlQMHEx2ZmEBmICtrAhMfLwP0eDCM4/AoNC6AXSwC1gBCE0Hc/vkJzOASZhBdT0IIIBGeMWgB0rQW0g4l7WEwoekCwAI+oJGBjWAMAAAAASUVORK5CYII=">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to My Website</h1>
-    <div class="options">
-      <button onclick="option1()">Option 1</button>
-      <button onclick="option2()">Option 2</button>
+
+<div class="container">
+    <h1>Welcome to LASITHI</h1>
+    
+    <div class="menu-item">
+        <a href="Menu.pdf" class="menu-link">
+            <img src="Menu.jpeg" alt="Menu">
+            <p>Our Menu</p>
+        </a>
     </div>
-  </div>
-  <script>
-    function option1() {
-      alert('You selected Option 1!');
-    }
-    function option2() {
-      alert('You selected Option 2!');
-    }
-  </script>
+    
+    <div class="menu-item">
+        <a href="LASITHI_COCKTAIL%20Χ%2030.%20V2.pdf" class="menu-link">
+            <img src="Cocktail%20pic.jpg" alt="Cocktail Menu">
+            <p>Cocktail Selection</p>
+        </a>
+    </div>
+    
+    <div class="menu-item">
+        <a href="BRUNCH%20&%20BREAKFAST%20Χ%2020.%20V2.pdf" class="menu-link">
+            <img src="BRUNCHMENU.jpg" alt="Brunch Menu">
+            <p>Brunch & Breakfast</p>
+        </a>
+    </div>
+</div>
+
+<div class="social-icons">
+    <a href="https://www.instagram.com/lasithi_bar_restaurant/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="https://www.facebook.com/LasithiRestaurant" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+</div>
+
+<div class="reservation">
+    For reservations call: +30 2108960502
+</div>
+
 </body>
 </html>
