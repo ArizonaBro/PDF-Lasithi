@@ -86,7 +86,8 @@ h1 {
 }
 
 .reservation {
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 1.2em;
     color: #4a7c59;
+    margin-bottom: 55px; /* Added space below the reservation section */
 }
