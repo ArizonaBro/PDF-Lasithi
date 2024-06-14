@@ -10,11 +10,11 @@ body {
 h1 {
     font-size: 2.5em;
     color: #333;
-    margin-top: 40px;
+    margin-top: 20px; /* Reduced space */
 }
 
 .container {
-    margin: 40px auto;
+    margin: 20px auto; /* Reduced space */
     max-width: 1000px;
     padding: 20px;
     text-align: center;
@@ -58,22 +58,13 @@ h1 {
 
 .slides {
     display: flex;
-    animation: slide 15s infinite;
+    transition: transform 0.5s ease-in-out;
 }
 
 .slides img {
-    width: 100%;
+    min-width: 100%;
     height: 100%;
     object-fit: contain; /* Ensure the entire image fits within the frame */
-}
-
-@keyframes slide {
-    0% { transform: translateX(0%); }
-    33.33% { transform: translateX(0%); }
-    33.34% { transform: translateX(-100%); }
-    66.66% { transform: translateX(-100%); }
-    66.67% { transform: translateX(-200%); }
-    100% { transform: translateX(-200%); }
 }
 
 .social-icons {
@@ -99,4 +90,3 @@ h1 {
     font-size: 1.2em;
     color: #4a7c59;
 }
-
