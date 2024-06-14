@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     color: #333;
     text-align: center;
-    background-color: #545454; /* Updated background color */
+    background-color: #707070; /* Brighter background color */
     margin: 0;
     padding: 0;
 }
@@ -36,7 +36,7 @@ h1 {
     width: 250px; /* Increased size */
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced 3D effect */
     transition: transform 0.3s;
 }
 
