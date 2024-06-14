@@ -15,3 +15,4 @@ function showSlides() {
     }, 100); // Delay to allow display change to take effect
     setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
+
