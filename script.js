@@ -2,7 +2,7 @@ let slideIndex = 0;
 showSlides();
 
 function showSlides() {
-    let slides = document.querySelectorAll('.slides jpeg');
+    let slides = document.querySelectorAll('.slides img');
     slides.forEach((slide, index) => {
         slide.style.display = 'none';
         slide.style.transform = 'scale(1.1)'; // Start zoomed in
