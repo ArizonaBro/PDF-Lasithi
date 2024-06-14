@@ -10,7 +10,7 @@ body {
 h1 {
     font-size: 2.5em;
     color: #333;
-    margin-top: 20px; /* Reduced space */
+    margin-top: 10px; /* Adjusted space */
 }
 
 .container {
